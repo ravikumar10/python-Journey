@@ -5,6 +5,7 @@ using  os module to get used with various function this module provides.
 import os
 import string
 import time
+import sys
 
 def dump(st):
     mode, ino, dev, nlink, uid, gid, size, atime, mtime, ctime = st
